@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <h1>Xecutables</h1>
+        <h1>MVM NATURE CURE HEALTH CENTRE</h1>
       </div>
       <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
         <a href="/">Home</a>
