@@ -19,10 +19,10 @@ const Home = () => {
         <Carousel>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block w-100 banner1"
               src={healthimg}
               alt="First slide"
-              style={{ width: '100%',height:'400px' }}
+              // style={{ width: '100%',height:'400px' }}
             />
             <Carousel.Caption>
               <div className="main-text">
@@ -37,10 +37,10 @@ const Home = () => {
 
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block w-100 banner1"
               src={healthimg1}
               alt="Second slide"
-              style={{ width: '100%',height:'400px' }}
+              // style={{ width: '100%',height:'400px' }}
             />
             <Carousel.Caption>
               <div className="main-text">
@@ -55,10 +55,10 @@ const Home = () => {
 
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block w-100 banner1"
               src={healthimg2}
               alt="Third slide"
-              style={{ width: '100%',height:'400px' }}
+              // style={{ width: '100%',height:'400px' }}
             />
             <Carousel.Caption>
               <div className="main-text">
