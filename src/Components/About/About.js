@@ -30,7 +30,7 @@ const About = () => {
       </div>
 
       {/* About Us Intro Section */}
-      <div className="container pt-4" id="text" style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <div className="container pt-4" id="text" style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
   <p style={{ fontSize: '20px', marginBottom: '15px' }}>
     <span style={{ backgroundColor: '#bdc3c7', padding: '5px 10px' }}>
       Best Chiropractic Clinic In Bangalore
