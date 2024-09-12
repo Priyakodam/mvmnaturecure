@@ -23,7 +23,7 @@ function Navbar() {
       </div>
 			<nav ref={navRef}>
 				<a style={{fontWeight:"700"}} href="/#">Home</a>
-				<a style={{fontWeight:"700"}} href="/#">About Us</a>
+				<a style={{fontWeight:"700"}} href="/About">About Us</a>
 				<a style={{fontWeight:"700"}} href="/#">Our Services</a>
 				<a style={{fontWeight:"700"}} href="/#">Our Doctors</a>
         <a style={{fontWeight:"700"}} href="/#">Contact Us</a>
