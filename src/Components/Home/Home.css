@@ -375,6 +375,54 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* Doctor Cards Section */
+.doctor-cards-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.doctor-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* max-width: 300px; */
+  text-align: center;
+  padding: 20px;
+  width: 380px;
+  height: 588px;
+  margin: 10px;
+  border: 2px solid #eee;
+}
+
+.doctor-card:hover {
+  border-color: #1abc9c; /* Green border on hover */
+}
+
+.doctor-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.doctor-name {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.doctor-qualification {
+  font-size: 1rem;
+  color: #27ae60; /* Green color for qualification */
+  margin: 5px 0;
+}
+
+.doctor-specialization {
+  font-size: 1rem;
+  color: #7f8c8d; /* Gray color for specialization */
+}
+
+
 /* Responsive design */
 @media (max-width: 767px) {
   .banner1{
@@ -460,6 +508,18 @@
   width: 90%;
   margin-left: 55px;
   margin-top: 30px;
+}
+.doctor-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* max-width: 300px; */
+  text-align: center;
+  padding: 20px;
+  width: 380px;
+  height: 405px;
+  margin: 10px;
+  border: 2px solid #eee;
 }
 }
 
