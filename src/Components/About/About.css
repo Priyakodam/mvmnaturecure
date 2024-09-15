@@ -1,0 +1,130 @@
+ /* Banner style start for all 3 views */
+ @media only screen and (max-width: 767px) {
+    .carousel-inner .carousel-item img {
+        height: 200px;
+        max-width: 100%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 18px;
+        padding-top: 20%;
+
+    }
+}
+
+.carousel-caption {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    text-align: center;
+
+}
+
+.carousel-caption h2 {
+    max-width: 80%;
+
+    margin: 0;
+
+    padding-top: 35px;
+
+    color: white;
+
+}
+#image1 {
+    margin-bottom: 15px;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+    #image1 {
+        margin-top: 0px;
+        /* Adjust the value for smaller screens */
+    }
+}
+
+
+/* Extra image in ipad view start*/
+
+.ipad-image-class {
+    display: none;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1180px) and (-webkit-min-device-pixel-ratio: 1) {
+    .ipad-image-class {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Extra image in ipad view end */
+
+
+/* QIB Button style */
+#Button1 {
+    background-color: #55b6c7;
+    /* Button background color */
+    color: white;
+    /* Button text color */
+    border: none;
+    /* Remove border */
+    padding: 10px 20px;
+    /* Add padding */
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* QIB Button style */
+
+/* card button style */
+.view-more-button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: rgb(63, 153, 182);
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.a_card {
+text-decoration: none;
+font-size: 22px;
+color: black;
+}
+
+.view-more-button:hover,
+.a_card:hover {
+opacity: 0.7;
+}
+
+/* card button style */
+
+#texts {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#text h2 {
+    background-image: linear-gradient(to right, #000000, #34b6de, #000000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* For compatibility with some browsers */
+    text-align: center;
+    font-size: 45px;
+    color: transparent;
+    /* Set the text color to transparent to make the background visible */
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.custom-image {
+    margin-top: 20px; /* Adjust the margin-top value as needed */
+}
+}
