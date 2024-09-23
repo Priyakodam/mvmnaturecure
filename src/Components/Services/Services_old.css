@@ -1,0 +1,107 @@
+.services-container {
+    padding: 30px;
+    text-align: center;
+    /* background-color: #f9f9f9; */
+    /* border: 2px solid #ddd;
+    border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    margin: 20px auto;
+    width: 90%;
+}
+
+
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    width: 100%; /* Keep the width 100% */
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Set item width to 100% of services-list */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.image-left .service-image {
+    order: 0;
+    margin-right: 20px;
+    width: 40%; 
+    border-radius: 10px;
+}
+
+.image-right .service-image {
+    order: 1;
+    margin-left: 20px; /* Maintain margin on the left */
+    width: 40%;
+    border-radius: 10px; 
+}
+
+.service-text {
+    text-align: left;
+    flex: 1; /* Allow text to take up remaining space */
+    width: 60%; /* Set text width to 60% */
+}
+
+.service-text h3 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.service-text p {
+    font-size: 1.2rem;
+    color: #777;
+    line-height: 1.5;
+}
+
+.view-more-button {
+    background-color: #28a745; /* Green color */
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 16px; /* Adjust padding for a smaller button */
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 15px auto; /* Center the button with auto margins */
+    display: block; /* Make the button a block element for centering */
+    width: 16%; /* Set a fixed width for the button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.view-more-button:hover {
+    background-color: #f8511a/* Set image width to 40% */; /* Orange color on hover */
+}
+
+@media (max-width: 768px) {
+    .service-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-item .service-image {
+        margin: 0 0 20px 0;
+        width: 80%; /* Adjust image width for mobile */
+    }
+
+    .service-text {
+        text-align: center;
+        width: 100%; /* Full width for text on mobile */
+    }
+}
+
+

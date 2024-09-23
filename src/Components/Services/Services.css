@@ -1,0 +1,171 @@
+.speech-therapy-container {
+    max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  .intro-section, .additional-content-section {
+    margin-bottom: 30px;
+  }
+  
+  .image-points-section, .points-image-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .image-left, .image-right {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .image-left img, .image-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .points-right, .points-left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .points-right h2, .points-left h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .points-right ul, .points-left ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .points-right ul li, .points-left ul li {
+    background: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .points-right ul li::before, .points-left ul li::before {
+    content: '✔';
+    color: green;
+    margin-right: 10px;
+  }
+  
+
+  h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color:#28a745;
+    cursor: pointer;
+    text-align: center;
+}
+
+h2:hover {
+    color: #ED7037 ;  
+}
+
+
+.carousel-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .carousel .slide img {
+    border-radius: 10px;
+  }
+  
+  .carousel .legend {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Slide-in animation from right to left */
+@keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Slide-in animation from left to right */
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Hide the elements initially to prevent showing before the animation */
+  .image-left, .points-left, .image-right, .points-right {
+    opacity: 0;
+  }
+  
+  /* Apply animations to image and content in image-points-section */
+  .image-points-section .image-left {
+    animation: slideInFromRight 1s ease-out forwards;
+  }
+  
+  .image-points-section .points-right {
+    animation: slideInFromLeft 1s ease-out forwards;
+  }
+  
+  /* Apply animations to image and content in points-image-section */
+  .points-image-section .points-left {
+    animation: slideInFromRight 1s ease-out forwards;
+  }
+  
+  .points-image-section .image-right {
+    animation: slideInFromLeft 1s ease-out forwards;
+  }
+  
+  /* Add a slight delay to make it smoother (optional) */
+  .image-points-section .image-left,
+  .points-image-section .points-left {
+    animation-delay: 0.2s;
+  }
+  
+  .image-points-section .points-right,
+  .points-image-section .image-right {
+    animation-delay: 0.2s;
+  }
+  
+  /* General container styling */
+  .image-points-section,
+  .points-image-section {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  .image-left, .image-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .points-left, .points-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  
