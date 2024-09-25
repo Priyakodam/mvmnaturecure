@@ -1,0 +1,64 @@
+/* General Page Styling */
+.speech-therapy-page {
+  background-color: #f9f9f9;
+}
+
+.speech-therapy-page .info-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.accordion-item {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.accordion-header {
+  background-color: #f8f9fa;
+  padding: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-body {
+  padding: 15px;
+  background-color: white;
+}
+
+.accordion-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-body p {
+  margin-bottom: 0;
+}
+
+.accordion-body a {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.accordion-item .active .accordion-icon {
+  transform: rotate(180deg);
+}
+
+/* Add some margin to the bottom */
+.extra-content ul {
+  margin-bottom: 30px;
+}
+
+.extra-content {
+  padding-top: 20px;
+}

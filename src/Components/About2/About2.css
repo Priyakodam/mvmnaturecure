@@ -1,0 +1,89 @@
+.about-section .section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.about-content .img-fluid {
+  transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+.treatment-focus-section .focus-card {
+  transition: transform 0.3s ease;
+}
+
+.focus-card:hover {
+  transform: scale(1.1);
+}
+
+.testimonial-box {
+  background-color: #fff;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-box:hover {
+  transform: scale(1.05);
+}
+
+/* Animation Styles */
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in-left {
+  animation: fadeInLeft 1s ease-out;
+}
+
+.animate-fade-in-right {
+  animation: fadeInRight 1s ease-out;
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-zoom {
+  animation: zoomIn 1s ease-out;
+}
+.bgcont {
+  background-color: #29335c;
+}
+
+.bgcont {
+  background-color: #29335c; /* Example parent background (green) */
+}
+
+.focus-card {
+  background-color: #3b4a80;
+  border-radius: 10px;
+}
